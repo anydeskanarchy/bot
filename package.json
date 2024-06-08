@@ -1,0 +1,16 @@
+{
+  "private": "true",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file .env .",
+    "lint": "npx standard"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "tmi.js": "^1.8.5"
+  }
+}
